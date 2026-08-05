@@ -1,20 +1,60 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Español: Pretérito o Pasado (Luz Spanish Grammar Reference)
 
-# Run and deploy your AI Studio app
+An interactive, editorial-grade web application for English speakers learning Spanish past tenses (*Pretérito Indefinido*, *Pretérito Imperfecto*, *Pretérito Perfecto*, *Pluscuamperfecto*). Grounded in Hispanic linguistics research (Montero-Cádiz, Andrés Bello, Reichenbach, RAE NGLE).
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/5271d963-a3fd-4736-900e-79286d5d5917
+## 🚀 Online Deployment on GitHub Pages
 
-## Run Locally
+This project is pre-configured with **GitHub Actions** for automatic deployment to **GitHub Pages**.
 
-**Prerequisites:**  Node.js
+### Steps to Host Online on GitHub:
 
+1. **Create a GitHub Repository**:
+   - Go to [GitHub New Repository](https://github.new).
+   - Name your repository (e.g., `Espanol_preterito_o_pasado`).
+   - Keep it Public (or Private with GitHub Pro/Teams).
 
+2. **Push your code to GitHub**:
+   In your terminal inside this project directory, run:
+   ```bash
+   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/Espanol_preterito_o_pasado.git
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages**:
+   - In your GitHub repo, go to **Settings** > **Pages**.
+   - Under **Build and deployment** -> **Source**, select **GitHub Actions**.
+
+4. **Access your live app**:
+   - The automated workflow in `.github/workflows/deploy.yml` will automatically build and publish your site!
+   - Your app will be live at: `https://YOUR_GITHUB_USERNAME.github.io/Espanol_preterito_o_pasado/`
+
+---
+
+## 💻 Running Locally
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher)
+
+### Setup & Run
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production locally:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🛠️ Features & Tech Stack
+
+- **React 19 + TypeScript + Vite**
+- **Tailwind CSS v4 + Lucide Icons + Motion**
+- **Interactive Grammar Matrix**, **Decision Tree Wizard**, **Verb Conjugator**, **Flashcards**, **Quizzes**, and **Annotated Reading Breakdown**.
