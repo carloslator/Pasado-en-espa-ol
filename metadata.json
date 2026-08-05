@@ -1,0 +1,6 @@
+{
+  "name": "Spanish Past Tenses Guide",
+  "description": "A clean, Swiss-designed app for native English speakers mastering all Spanish past tenses with clear grammar reference, full verb conjugations, flashcards, interactive quizzes, and reading breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

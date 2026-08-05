@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FDFDFD;
+    color: #1A1A1A;
+    font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  }
+}
+
+.serif-italic {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.accent-text {
+  color: #D72638;
+}
+
+.accent-bg {
+  background-color: #D72638;
+}
+
+.accent-border {
+  border-color: #D72638;
+}
+
+.verb-table th {
+  text-align: left;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  padding-bottom: 0.5rem;
+}
+
+.verb-table td {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #F0F0F0;
+}
+
